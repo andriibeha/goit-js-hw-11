@@ -1,0 +1,59 @@
+/*Шрифти для текстів та кольори*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container { 
+    position: relative;
+}
+/*------------------------------------------------*/
+
+.header { 
+    background-color: purple;
+    width: 100%;
+    height: 55px;
+
+    margin-top: -15px;
+
+    z-index: 3;
+    position: fixed;
+}
+
+.header__form { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.header__input { 
+    width: 220px;
+    height: 26px;
+
+    font-size: 16px;
+}
+
+.button { 
+    
+}
+
+.icon { 
+
+}
+
+/*------------------MAIN----------------*/
+
+main {
+    margin-top: 15px;
+}
