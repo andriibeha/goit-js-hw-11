@@ -10,24 +10,21 @@
       <div class="container">
         <!--Header-->
         <header class="header">
-          <form action="" class="header__form">
-            <input class="header__input" type="text" placeholder="Search the Picture...">
+          <form  class="header__form" id="search-form">
+            <input class="header__input" type="text" name="searchQuery"
+            autocomplete="off" placeholder="Search images...">
 
-            <button class="button">
+            <button class="button" type="submit">
               <img src="./images/search.png" alt="Search" width="26px" height="26px" class="icon">
             </button>
           </form>
-          
         </header>
       </div>
 
-        <!--Main Content-->
-      <div class="container">
-        <main>
-          
-        </main>
-      </div>
-        
+        <!--Gallery-->
+          <div class="gallery"></div>
+      
+        <p class="end-search__info">We're sorry, but you've reached the end of search results.</p>
       
 
     <script src="./index.js"></script>

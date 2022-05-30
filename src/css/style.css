@@ -27,6 +27,7 @@ img {
 
     z-index: 3;
     position: fixed;
+
 }
 
 .header__form { 
@@ -35,6 +36,7 @@ img {
     justify-content: center;
 
     padding: 10px;
+
 }
 
 .header__input { 
@@ -54,6 +56,38 @@ img {
 
 /*------------------MAIN----------------*/
 
-main {
+
+.gallery {
     margin-top: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-card { 
+    width: 300px;
+    height: 300px;
+
+    margin: 15px;
+}
+
+.photo-card__img { 
+    height:200px; 
+}
+
+.info { 
+    display: flex;
+
+    padding: 10px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.info-item { 
+    margin-right: 10px;
+    text-align: center;
 }
